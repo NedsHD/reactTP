@@ -1,0 +1,122 @@
+.single-card {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3c3e44;
+  width: 40rem;
+  height: 65rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  height: 60%;
+  width: 100%;
+}
+
+.principal img {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.bolita {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+.alive {
+  background-color: green;
+  border-color: green;
+}
+
+.dead {
+  background-color: red;
+  border-color: red;
+}
+
+.unknown {
+  background-color: grey;
+  border-color: grey;
+}
+
+.type {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.secundario {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.texto-secundario {
+  padding-left: 3rem;
+  text-align: start;
+}
+
+.episode {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  align-items: start;
+  gap: 0.2rem;
+}
+
+.episode p {
+  font-size: 0.8rem;
+}
+
+.episode-contenedor {
+  display: flex;
+  flex-direction: column;
+  width: 9rem;
+  height: 10rem;
+  border: 1px solid gray;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #2c2c2c;
+}
+
+.episode-contenedor p {
+  color: #cacaca;
+}
+
+.button-home {
+  width: 15rem;
+  background-color: #2c2c2c;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1.1rem 0;
+  color: white;
+  cursor: pointer;
+}
+
+.button-home:hover {
+  background-color: #1f1f1f;
+}
